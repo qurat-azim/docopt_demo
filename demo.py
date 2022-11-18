@@ -12,6 +12,10 @@ Options:
 """ 
 
 from docopt import docopt
+
+def main(opt);
+  print(opt)
+  print(type(opt))
+
 opt = docopt(__doc__)
-print(opt)
-print(type(opt))
+main(opt)
